@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lifetime tax calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Lifetime Tax Calculator</h1>
+        <form id="calculatorForm">
+            <label for="salary">Salary (GBP):</label>
+            <input type="number" id="salary" name="salary" required>
+            <label for="yearsToRetirement">Number of Years to Retirement:</label>
+            <input type="number" id="yearsToRetirement" name="yearsToRetirement" required>
+            <label for="homeValue">Property Value (GBP):</label>
+            <input type="number" id="homeValue" name="homeValue" required>
+            <button type="submit">Calculate</button>
+        </form>
+        <div id="results" class="results">
+            <!-- Results will be displayed here -->
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
